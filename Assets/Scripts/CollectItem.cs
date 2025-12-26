@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CoillectItem : MonoBehaviour
+public class CollectItem : MonoBehaviour
 {
-
     private int collectibles = 0;
-
-    [SerializeField] private Text collectiblesText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Cherry"))
+        if (collision.gameObject.CompareTag("Collectibles"))
         {
             Destroy(collision.gameObject);
             collectibles++;
-            collectiblesText.text = "Collectibles: " + collectibles;
         }
     }
-
 }
