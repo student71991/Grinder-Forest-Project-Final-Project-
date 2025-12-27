@@ -10,12 +10,17 @@ public class PlayerMovement : MonoBehaviour
     float jumpPower = 5f;
     bool isJumping = false;
 
+    private Animator anim;
+
     Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -30,6 +35,27 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
         }
+
+
+
+
+
+        if (horizontalInput>0f)
+        {
+            anim.SetBool("Running", true);
+        }
+
+        else if (horizontalInput < 0f)
+        {
+            anim.SetBool("Running", true);
+        }
+
+        else
+        {
+            anim.SetBool("Running", false);
+        }
+
+
     }
 
     private void FixedUpdate()
