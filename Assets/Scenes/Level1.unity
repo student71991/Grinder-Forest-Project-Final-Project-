@@ -2174,9 +2174,10 @@ GameObject:
   m_Component:
   - component: {fileID: 652997501}
   - component: {fileID: 652997502}
+  - component: {fileID: 652997503}
   m_Layer: 0
-  m_Name: Spikes #11
-  m_TagString: Untagged
+  m_Name: Spikes #1
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2190,11 +2191,11 @@ Transform:
   m_GameObject: {fileID: 652997500}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.596, y: -0.252, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.7840004, y: -4.6210003, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1.52}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2135581316}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &652997502
 SpriteRenderer:
@@ -2248,6 +2249,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &652997503
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652997500}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0062781945, y: -0.042090572}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1474436, y: 0.07581885}
+  m_EdgeRadius: 0
 --- !u!1 &662912066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,6 +3618,7 @@ GameObject:
   - component: {fileID: 1189374348}
   - component: {fileID: 1189374349}
   - component: {fileID: 1189374350}
+  - component: {fileID: 1189374351}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3764,6 +3811,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1189374351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189374343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a1d0ab91a9292488e958f40eb4b022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1211852490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6725,7 +6784,6 @@ Transform:
   - {fileID: 321431372}
   - {fileID: 1111860014}
   - {fileID: 1706652453}
-  - {fileID: 652997501}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2138267336
@@ -6860,7 +6918,8 @@ SceneRoots:
   - {fileID: 620087166}
   - {fileID: 1189374346}
   - {fileID: 1049297871}
-  - {fileID: 2135581316}
   - {fileID: 1047957723}
   - {fileID: 1386077239}
   - {fileID: 269591571}
+  - {fileID: 2135581316}
+  - {fileID: 652997501}
