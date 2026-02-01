@@ -3,9 +3,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class Dissolve : MonoBehaviour
 {
+
 
     [SerializeField] private float _dissolveTime = 0.75f;
 
@@ -21,8 +24,8 @@ public class Dissolve : MonoBehaviour
         _spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
         _materials = new Material[_spriteRenderers.Length]; for (int i = 0; i < _spriteRenderers.Length; i++)
         {
-         _materials[i] = _spriteRenderers[i].material;
-        
+            _materials[i] = _spriteRenderers[i].material;
+
         }
     }
 
@@ -32,12 +35,12 @@ public class Dissolve : MonoBehaviour
     private void Update()
     {
 
-        if (keyboard.current.ekey.wasPressedThisFrame)
+        if (Keyboard.current.ekey.wasPressedThisFrame)
         {
             StartCoroutine(Vanish(true, false));
         }
 
-        if (keyboard.current.fkey.wasPressedThisFrame)
+        if (Keyboard.current.fkey.wasPressedThisFrame)
         {
             StartCoroutine(Appear(true, false));
         }
@@ -60,13 +63,13 @@ public class Dissolve : MonoBehaviour
             for (int i = 0; i < _materials.Length; i++)
             {
                 if (useDissolve)
-                _materials[i].SetFloat(_dissolveAmount, lerpedDissolve);
+                    _materials[i].SetFloat(_dissolveAmount, lerpedDissolve);
 
                 if (useVertical)
-                _materials[i].SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
+                    _materials[i].SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
             }
 
-                yield return null;
+            yield return null;
         }
 
     }
@@ -94,6 +97,8 @@ public class Dissolve : MonoBehaviour
         }
 
     }
+
+
 
 }
 
