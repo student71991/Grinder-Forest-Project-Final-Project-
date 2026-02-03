@@ -704,8 +704,8 @@ GameObject:
   - component: {fileID: 39383044}
   - component: {fileID: 39383045}
   m_Layer: 0
-  m_Name: Spike #12
-  m_TagString: Untagged
+  m_Name: Spike #8
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1179,8 +1179,8 @@ GameObject:
   - component: {fileID: 54894710}
   - component: {fileID: 54894709}
   m_Layer: 0
-  m_Name: Spike #11
-  m_TagString: Untagged
+  m_Name: Spike #7
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1824,7 +1824,7 @@ GameObject:
   - component: {fileID: 84885843}
   m_Layer: 0
   m_Name: Spike #3
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2935,8 +2935,8 @@ GameObject:
   - component: {fileID: 150572099}
   - component: {fileID: 150572098}
   m_Layer: 0
-  m_Name: Spike #20
-  m_TagString: Untagged
+  m_Name: Spike #17
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3714,7 +3714,7 @@ GameObject:
   - component: {fileID: 168772454}
   - component: {fileID: 168772455}
   m_Layer: 0
-  m_Name: Tree #4 (5)
+  m_Name: Tree #9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5421,8 +5421,8 @@ GameObject:
   - component: {fileID: 255536664}
   - component: {fileID: 255536663}
   m_Layer: 0
-  m_Name: Spike #19
-  m_TagString: Untagged
+  m_Name: Spike #16
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7463,7 +7463,7 @@ GameObject:
   - component: {fileID: 372221926}
   - component: {fileID: 372221927}
   m_Layer: 0
-  m_Name: Tree #2 (2)
+  m_Name: Tree #11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14481,7 +14481,7 @@ GameObject:
   - component: {fileID: 524979103}
   m_Layer: 0
   m_Name: Spike #1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16764,7 +16764,7 @@ GameObject:
   - component: {fileID: 649231806}
   - component: {fileID: 649231807}
   m_Layer: 0
-  m_Name: Tree #4 (2)
+  m_Name: Tree #8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18072,8 +18072,8 @@ GameObject:
   - component: {fileID: 748858467}
   - component: {fileID: 748858466}
   m_Layer: 0
-  m_Name: Spike #16
-  m_TagString: Untagged
+  m_Name: Spike #13
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18851,7 +18851,7 @@ GameObject:
   - component: {fileID: 780064478}
   - component: {fileID: 780064479}
   m_Layer: 0
-  m_Name: Rock #2 (3)
+  m_Name: Rock #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22970,8 +22970,8 @@ GameObject:
   - component: {fileID: 1000377022}
   - component: {fileID: 1000377021}
   m_Layer: 0
-  m_Name: Spike #13
-  m_TagString: Untagged
+  m_Name: Spike #9
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23704,8 +23704,8 @@ GameObject:
   - component: {fileID: 1047358462}
   - component: {fileID: 1047358461}
   m_Layer: 0
-  m_Name: Spike #14
-  m_TagString: Untagged
+  m_Name: Spike #10
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24093,7 +24093,7 @@ GameObject:
   - component: {fileID: 1068329263}
   - component: {fileID: 1068329264}
   m_Layer: 0
-  m_Name: Tree #2 (3)
+  m_Name: Tree #12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24177,7 +24177,7 @@ GameObject:
   - component: {fileID: 1070649733}
   - component: {fileID: 1070649734}
   m_Layer: 0
-  m_Name: Rock #2 (2)
+  m_Name: Rock #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25433,7 +25433,7 @@ GameObject:
   - component: {fileID: 1119816420}
   - component: {fileID: 1119816419}
   m_Layer: 0
-  m_Name: Big Rock #3
+  m_Name: Big Rock #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25840,8 +25840,8 @@ GameObject:
   - component: {fileID: 1130426080}
   - component: {fileID: 1130426079}
   m_Layer: 0
-  m_Name: Spike #18
-  m_TagString: Untagged
+  m_Name: Spike #15
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26615,7 +26615,7 @@ GameObject:
   - component: {fileID: 1173511126}
   m_Layer: 0
   m_Name: Spike #6
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30667,7 +30667,7 @@ GameObject:
   - component: {fileID: 1391761121}
   m_Layer: 0
   m_Name: Spike #2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31845,7 +31845,7 @@ GameObject:
   - component: {fileID: 1465088237}
   - component: {fileID: 1465088238}
   m_Layer: 0
-  m_Name: Big Rock #2 (1)
+  m_Name: Big Rock #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32641,7 +32641,7 @@ GameObject:
   - component: {fileID: 1524066602}
   - component: {fileID: 1524066603}
   m_Layer: 0
-  m_Name: Tree #4 (3)
+  m_Name: Tree #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33589,7 +33589,7 @@ GameObject:
   - component: {fileID: 1564820186}
   - component: {fileID: 1564820187}
   m_Layer: 0
-  m_Name: Tree #4 (4)
+  m_Name: Tree #7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36583,7 +36583,7 @@ GameObject:
   - component: {fileID: 1750381802}
   m_Layer: 0
   m_Name: Spike #5
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36712,8 +36712,8 @@ GameObject:
   - component: {fileID: 1761453750}
   - component: {fileID: 1761453749}
   m_Layer: 0
-  m_Name: Spike #17
-  m_TagString: Untagged
+  m_Name: Spike #14
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36973,7 +36973,7 @@ GameObject:
   - component: {fileID: 1772953645}
   m_Layer: 0
   m_Name: Spike #4
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37634,7 +37634,7 @@ GameObject:
   - component: {fileID: 1799492854}
   - component: {fileID: 1799492855}
   m_Layer: 0
-  m_Name: Tree #4 (1)
+  m_Name: Tree #6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39103,7 +39103,7 @@ GameObject:
   - component: {fileID: 1889507124}
   - component: {fileID: 1889507125}
   m_Layer: 0
-  m_Name: Rock #2 (1)
+  m_Name: Rock #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40852,7 +40852,7 @@ GameObject:
   - component: {fileID: 1956255210}
   - component: {fileID: 1956255211}
   m_Layer: 0
-  m_Name: Tree #2 (1)
+  m_Name: Tree #10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41066,7 +41066,7 @@ GameObject:
   - component: {fileID: 1979604334}
   - component: {fileID: 1979604335}
   m_Layer: 0
-  m_Name: Big Rock #3 (1)
+  m_Name: Big Rock #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42275,8 +42275,8 @@ GameObject:
   - component: {fileID: 2050974826}
   - component: {fileID: 2050974825}
   m_Layer: 0
-  m_Name: Spike #15
-  m_TagString: Untagged
+  m_Name: Spike #12
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
