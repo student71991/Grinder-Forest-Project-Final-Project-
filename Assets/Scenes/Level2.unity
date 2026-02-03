@@ -10805,7 +10805,7 @@ GameObject:
   - component: {fileID: 883649973}
   - component: {fileID: 883649972}
   m_Layer: 0
-  m_Name: Shrooms #1 (2)
+  m_Name: Shrooms #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14034,7 +14034,7 @@ GameObject:
   - component: {fileID: 1258855167}
   - component: {fileID: 1258855166}
   m_Layer: 0
-  m_Name: Crate #12 (1)
+  m_Name: Crate #15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14371,7 +14371,7 @@ GameObject:
   - component: {fileID: 1428948807}
   - component: {fileID: 1428948806}
   m_Layer: 0
-  m_Name: Shrooms #2 (1)
+  m_Name: Shrooms #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14585,7 +14585,7 @@ GameObject:
   - component: {fileID: 1436184867}
   - component: {fileID: 1436184866}
   m_Layer: 0
-  m_Name: Shrooms #1 (1)
+  m_Name: Shrooms #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16311,7 +16311,7 @@ GameObject:
   - component: {fileID: 1698746552}
   - component: {fileID: 1698746551}
   m_Layer: 0
-  m_Name: Shrooms #2 (2)
+  m_Name: Shrooms #6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19418,21 +19418,21 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 988850516}
-  - {fileID: 1700468344}
-  - {fileID: 1701546333}
   - {fileID: 895897694}
   - {fileID: 787618551}
+  - {fileID: 1700468344}
+  - {fileID: 1701546333}
   - {fileID: 360821432}
   - {fileID: 476490268}
   - {fileID: 649355031}
   - {fileID: 2068949853}
+  - {fileID: 779544123}
+  - {fileID: 854915053}
+  - {fileID: 1591756347}
   - {fileID: 438210329}
   - {fileID: 111810249}
   - {fileID: 2048491882}
   - {fileID: 1963669409}
-  - {fileID: 779544123}
-  - {fileID: 854915053}
-  - {fileID: 1591756347}
   - {fileID: 1914790148}
   - {fileID: 2102512782}
   - {fileID: 1002541498}
