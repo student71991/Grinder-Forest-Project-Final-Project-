@@ -3229,7 +3229,7 @@ GameObject:
   - component: {fileID: 150572099}
   - component: {fileID: 150572098}
   m_Layer: 0
-  m_Name: Spike #17
+  m_Name: Spike #16
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5715,7 +5715,7 @@ GameObject:
   - component: {fileID: 255536664}
   - component: {fileID: 255536663}
   m_Layer: 0
-  m_Name: Spike #16
+  m_Name: Spike #15
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18366,7 +18366,7 @@ GameObject:
   - component: {fileID: 748858467}
   - component: {fileID: 748858466}
   m_Layer: 0
-  m_Name: Spike #13
+  m_Name: Spike #12
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25361,7 +25361,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -25469,7 +25469,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 35048f90e5e8c9a408598c18a080b433, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -26232,7 +26232,7 @@ GameObject:
   - component: {fileID: 1130426080}
   - component: {fileID: 1130426079}
   m_Layer: 0
-  m_Name: Spike #15
+  m_Name: Spike #14
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37104,7 +37104,7 @@ GameObject:
   - component: {fileID: 1761453750}
   - component: {fileID: 1761453749}
   m_Layer: 0
-  m_Name: Spike #14
+  m_Name: Spike #13
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42667,7 +42667,7 @@ GameObject:
   - component: {fileID: 2050974826}
   - component: {fileID: 2050974825}
   m_Layer: 0
-  m_Name: Spike #12
+  m_Name: Spike #11
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

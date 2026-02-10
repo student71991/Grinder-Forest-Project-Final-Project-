@@ -556,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a1d0ab91a9292488e958f40eb4b022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 0}
 --- !u!114 &808670270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c285c16fa318370419b75be1bda6d4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectSoundEffect: {fileID: 0}
 --- !u!114 &808670271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efca07d4b3f608749a6c9d1a9755cd5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSoundEffect: {fileID: 0}
 --- !u!212 &808670272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6396,6 +6399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: ThankYouMenu
+  endSoundEffect: {fileID: 0}
 --- !u!61 &1516938955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6425,7 +6429,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
